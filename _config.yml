@@ -13,14 +13,14 @@ author:
   linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
 
 # 站点信息
-title: 林安亚的博客
-description: My personal blog
-url: http://painterlin.com
+title: snake's blog
+description: welcome to snake's blog
+url: http://snake1977.org
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/deer3.png
-favicon: /public/img/deer3.png
+gavatar: /public/img/snake.jpg
+favicon: /public/img/snake.jpg
 
 # google analytics 设置
 ga:
@@ -29,10 +29,10 @@ ga:
 
 # disqus 设置
 disqus:
-  shortname: painterlin
+  shortname: snake1977
 
 # 主题设置，自动激活某个标签
-active: 读书
+active: 测试
 
 # 首页除了最新文章外显示分类
 cates: 
