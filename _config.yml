@@ -1,20 +1,21 @@
 permalink: /:year/:month/:day/:title.html
 paginate: 10
-markdown: redcarpet
+markdown: kramdown
+
+kramdown:
+  input: GFM
 
 # 作者信息
 author: 
-  name: Anya Lin
-  email: lay.1010@hotmail.com
-  link: http://painterlin.com
-  weibo: http://weibo.com/orangeissweet
-  github: http://github.com/lay1010
-  music: http://site.douban.com/linanya
-  linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
+  name: snake
+  email: suyan0830@gmail.com
+  link: http://yansu.org
+  weibo: http://weibo.com/yansu0711
+  github: http://github.com/suyan
 
 # 站点信息
-title: snake's blog
-description: welcome to snake's blog
+title: snake's blog 
+description: snake's blog
 url: http://snake1977.org
 rss_url: /pages/atom.xml
 
@@ -24,20 +25,20 @@ favicon: /public/img/snake.jpg
 
 # google analytics 设置
 ga:
-  id: UA-54262064-1 
-  url: painterlin.com
+  id: UA-54767140-1
+  url: yansu.org
 
 # disqus 设置
 disqus:
-  shortname: snake1977
+  shortname: snake
 
 # 主题设置，自动激活某个标签
 active: 测试
 
 # 首页除了最新文章外显示分类
 cates: 
-  - Optimization
-  - LaTeX
+  - Python
+  - OpenStack
 
 # 中文本地化
 locals:
@@ -45,3 +46,4 @@ locals:
   about: 关于
   newest: 最新文章
   archive: 归档
+  content: 目录
